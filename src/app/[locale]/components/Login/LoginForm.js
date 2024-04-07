@@ -2,7 +2,7 @@
 
 //REGISTER
 
-"use client";
+"wuse client";
 import logoOxygen from "../../../../../public/assets/images/logo.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
