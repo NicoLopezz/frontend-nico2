@@ -27,7 +27,7 @@ const RegisterForm = () => {
     let datosUsuarioJson = JSON.stringify(datosUsuario);
 
     console.log(datosUsuarioJson)  
-    const res = await fetch("https://web-oxygen-backend.onrender.com/login", {     
+    const res = await fetch("https://web-oxygen-backend.onrender.com/api/login", {     
       method: 'POST',
           headers:
           {
