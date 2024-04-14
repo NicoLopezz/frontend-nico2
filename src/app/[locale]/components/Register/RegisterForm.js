@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import "./register.css";
 import { useState } from "react";
 
+
 const LoginForm = () => {
   const loginIdioms = useTranslations("Login");
   const [email, setEmail] = useState("");
@@ -37,7 +38,6 @@ const LoginForm = () => {
   const handleCompanyChange = (e) => {
     setCompany(e.target.value);
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
