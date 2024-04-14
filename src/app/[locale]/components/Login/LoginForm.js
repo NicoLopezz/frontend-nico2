@@ -1,6 +1,6 @@
 //Assets
 
-//REGISTER
+//REGISTERs
 
 "wuse client";
 import logoOxygen from "../../../../../public/assets/images/logo.png";
